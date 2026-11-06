@@ -12,7 +12,7 @@
 <body>
   <header class="encabezado">
     <div class="encabezado-contenido">
-      <div class="marca"><div class="logo">121</div><div><h1 class="titulo-principal">Biblioteca Virtual</h1><p class="subtitulo">IE 121 Virgen de Fatima | EdTech · Ingeniería Educativa</p></div></div>
+      <div class="marca"><div class="logo">121</div><div><h1 class="titulo-principal">Biblioteca Virtual</h1><p class="subtitulo">IE 121 Virgen de Fatima | Aula de Innovación Pedagógica</p></div></div>
       <span id="totalLibros" class="total-libros">Cargando...</span>
     </div>
   </header>
@@ -27,6 +27,17 @@
     <div id="mensajeError" class="error oculto" role="alert"></div>
     <section id="gridLibros" class="catalogo" aria-label="Catálogo de libros"><div class="cargando"><div class="indicador-carga"></div><div>Cargando biblioteca...</div></div></section>
   </main>
+  <footer class="pie-pagina">
+  <p>
+    © <span id="anioCopyright"></span>
+    EdTech·Ingeniería Educativa.
+    Todos los derechos reservados.
+  </p>
+
+  <p class="pie-credito">
+    PIP · Pedro Acevedo Elguera
+  </p>
+</footer>
   <div id="modal" class="modal oculto" role="dialog" aria-modal="true" aria-labelledby="modalTitulo">
     <div class="modal-ventana"><div class="modal-encabezado"><h2 id="modalTitulo" class="modal-titulo"></h2><div class="modal-acciones"><a id="abrirNuevaPestana" class="abrir-aparte oculto" href="#" target="_blank" rel="noopener noreferrer">Abrir aparte</a><button id="cerrarModal" class="cerrar" type="button" aria-label="Cerrar">✕</button></div></div><div id="modalContent" class="modal-contenido"></div></div>
   </div>
